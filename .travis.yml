@@ -1,0 +1,5 @@
+# ugly hack to get bash working
+language: c
+os: osx
+install: brew install bork
+script: ./compile_bork.sh
