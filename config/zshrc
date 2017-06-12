@@ -1,0 +1,78 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _approximate
+zstyle ':completion:*' expand prefix suffix
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' list-suffixes true
+zstyle ':completion:*' matcher-list 'r:|[._-]=** r:|=**' 'm:{[:lower:][:upper:]}={[:upper:][:lower:]}' 'l:|=* r:|=*'
+zstyle ':completion:*' menu select=1
+zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
+zstyle ':completion:*' squeeze-slashes true
+zstyle :compinstall filename '/Users/skylar/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.histfile
+HISTSIZE=10000
+SAVEHIST=10000
+bindkey -e
+# End of lines configured by zsh-newuser-install
+
+alias composer='php /usr/local/bin/composer.phar'
+alias ip='curl http://icanhazip.com'
+alias fucking='sudo'
+alias fuck='sudo $(fc -ln -1)'
+alias 'sudo brew'=brew
+alias jk=jekyll
+alias whereis=which
+alias nn=nano
+alias weather='curl wttr.in'
+alias l=ls
+alias sl=ls
+alias ll='ls -la'
+
+export PROMPT='%m:%1~ %n$ '
+
+alias undopush="git push -f origin HEAD^:master"
+
+alias cleanup_dsstore="find . -name '*.DS_Store' -type f -ls -delete"
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; rm -rfv ~/.Trash; sudo rm /private/var/vm/sleepimage"
+
+# Magic LS upgrades
+# use coreutils `ls` if possible…
+hash gls >/dev/null 2>&1 || alias gls="ls"
+
+# always use color, even when piping (to awk,grep,etc)
+if gls --color > /dev/null 2>&1; then colorflag="--color"; else colorflag="-G"; fi;
+export CLICOLOR_FORCE=1
+
+export HASTE_SERVER=https://paste.skylarmacdonald.com
+
+alias beep="echo "
+
+transfer() { if [ $# -eq 0 ]; then echo "No arguments specified. Usage:\necho transfer /tmp/test.md\ncat /tmp/test.md | transfer test.md"; return 1; fi
+tmpfile=$( mktemp -t transferXXX ); if tty -s; then basefile=$(basename "$1" | sed -e 's/[^a-zA-Z0-9._-]/-/g'); curl --progress-bar --upload-file "$1" "https://transfer.sh/$basefile" >> $tmpfile; else curl --progress-bar --upload-file "-" "https://transfer.sh/$1" >> $tmpfile ; fi; cat $tmpfile; rm -f $tmpfile; }
+
+insert_sudo () { zle beginning-of-line; zle -U "sudo "; }
+#eol() { zle end-of-line; }
+zle -N insert-sudo insert_sudo
+#zle -N eol eol
+bindkey "ß" insert-sudo
+
+function urlenc; {
+	setopt extendedglob
+	echo "${${(j: :)@}//(#b)(?)/%$[[##16]##${match[1]}]}"
+}
+
+setopt HIST_IGNORE_SPACE
+
+if [ -f /usr/local/share/liquidprompt ]; then
+	. /usr/local/share/liquidprompt
+fi
+
+source ~/.profile
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
+chruby 2.4.1

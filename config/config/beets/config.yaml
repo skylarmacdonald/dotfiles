@@ -1,0 +1,9 @@
+directory: /Users/skylar/Library/Mobile Documents/com~apple~CloudDocs/Music
+library: /Users/skylar/Library/Mobile Documents/com~apple~CloudDocs/Music/.library.db
+import:
+    move: yes
+ignore: [".*", "*~", "System Volume Information", "iTunes", "GarageBand", "Instrumentals/Stems", "Nicecast Broadcast Archive", "Performance"]
+paths:
+    default: %asciify{$albumartist}/%asciify{$album}%aunique{}/$track %asciify{$title}
+    singleton: %asciify{$artist}/%asciify{$title}
+    comp: Compilations/%asciify{$album}%aunique{}/$track %asciify{$title}
