@@ -1,5 +1,6 @@
 ok brew mas
 
+ok cask 1password
 ok cask alfred
 ok mas 507257563 Sip
 ok cask the-unarchiver
