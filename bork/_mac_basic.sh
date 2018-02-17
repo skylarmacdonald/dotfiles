@@ -13,3 +13,4 @@ ok mas 457622435 Yoink
 ok mas 413965349 Soulver
 ok mas 406056744 Evernote
 ok cask jumpcut
+ok cask keybase
