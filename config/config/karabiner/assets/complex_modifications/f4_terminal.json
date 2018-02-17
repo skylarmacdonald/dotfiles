@@ -1,0 +1,26 @@
+{
+	"title": "Launch terminal",
+	"rules": [
+		{
+			"description": "Press F4 key to open a terminal.",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "f4",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open '/Applications/Utilities/Terminal.app'"
+						}
+					]
+				}
+			]
+		}
+	]
+}
