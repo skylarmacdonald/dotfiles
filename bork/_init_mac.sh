@@ -15,7 +15,7 @@ if [ -n "$COMPUTER_NAME" ]; then
 fi
 
 ok directory "$HOME/.ssh"
-ok check "[ -e $HOME/.ssh/*.pub ]"
+ok check "[ -e $HOME/.ssh/id_rsa.pub ]"
 if check_failed && satisfying; then
 	echo "Generating SSH Key"
 	ssh-keygen -t rsa
