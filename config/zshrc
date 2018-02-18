@@ -77,5 +77,3 @@ alias sublime=subl
 source ~/.profile
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
-chruby 2.4.2
-
