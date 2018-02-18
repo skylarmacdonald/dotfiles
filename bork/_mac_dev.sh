@@ -1,6 +1,7 @@
 ok cask sublime-text
 ok cask dash
 ok brew mysql
+ok check "brew services start mysql"
 ok brew ruby-install
 ok brew chruby
 ok mas 497799835 Xcode
