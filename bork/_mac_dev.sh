@@ -16,3 +16,4 @@ if check_failed && satisfying; then
 	chruby $(cat ~/.ruby-version)
 fi
 ok gem bundler
+ok gem jekyll
