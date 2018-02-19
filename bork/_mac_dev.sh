@@ -6,6 +6,7 @@ ok brew ruby-install
 ok brew chruby
 ok mas 497799835 Xcode
 ok cask transmit
+ok cask sequel-pro
 
 # This may not work...
 if [ ! -d $HOME/.rubies ]; then
