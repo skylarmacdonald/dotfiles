@@ -17,3 +17,4 @@ if check_failed && satisfying; then
 fi
 ok gem bundler
 ok gem jekyll
+ok gem rails
