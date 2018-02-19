@@ -1,4 +1,9 @@
 ok cask sublime-text
+if satisfying; then
+	mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages"
+	ln -s $HOME/code/dotfiles/sublime-settings/ "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+fi
+
 ok cask dash
 ok brew mysql
 ok check "brew services start mysql"
