@@ -10,10 +10,10 @@ ok brew ruby-install
 ok brew chruby
 source /usr/local/opt/chruby/share/chruby/chruby.sh
 source /usr/local/opt/chruby/share/chruby/auto.sh
-ok check "chruby $(cat ~/.ruby-version)"
+ok check "chruby $(cat $HOME/.ruby-version)"
 if check_failed && satisfying; then
-	ruby-install ruby $(cat ~/.ruby-version)
-	chruby $(cat ~/.ruby-version)
+	ruby-install ruby $(cat $HOME/.ruby-version)
+	chruby $(cat $HOME/.ruby-version)
 fi
 ok gem bundler
 ok gem jekyll
