@@ -2,7 +2,7 @@
 
 ok check "fdesetup status | grep 'On'"
 if check_failed; then
-	echo "Filevault is not setup. Please enable filevault before continuing."
+	echo "FileVault is not set up. Please enable FileVault before continuing."
 	open "/System/Library/PreferencePanels/Security.prefpane"
 	exit 1
 fi
