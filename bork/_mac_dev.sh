@@ -1,7 +1,11 @@
+eval $(op signin klebe-macdonald)
+
 ok cask sublime-text
 if satisfying; then
 	mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages"
 	ln -s $HOME/code/dotfiles/sublime-settings/ "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+	op get item mioskhtiezckbap3iexulkdt4e | jq -r '.details.sections[0].fields[] | select(.n=="reg_code").v' > "$HOME/Library/Application Support/Sublime Text 3/Local/License.sublime_license"
+	op get item mioskhtiezckbap3iexulkdt4e | jq -r '.details.sections[5].fields[] | select(.n=="D59700F799724CF6AC3D3DF30B1C2420").v' > "$HOME/code/dotfiles/sublime-settings/Theme - Monokai Pro.sublime-settings"
 fi
 
 ok cask dash
