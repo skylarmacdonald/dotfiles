@@ -19,6 +19,7 @@ HISTSIZE=10000
 SAVEHIST=10000
 bindkey -e
 # End of lines configured by zsh-newuser-install
+EDITOR=nano
 
 alias composer='php /usr/local/bin/composer.phar'
 alias ip='curl http://icanhazip.com'
