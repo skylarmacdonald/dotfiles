@@ -15,6 +15,7 @@ ok cask postgres
 ok mas 497799835 Xcode
 ok cask transmit
 ok cask sequel-pro
+ok cask psequel
 
 ok brew ruby-install
 ok brew chruby
