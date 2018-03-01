@@ -11,6 +11,7 @@ fi
 ok cask dash
 ok brew mysql
 ok check "brew services start mysql"
+ok cask postgres
 ok mas 497799835 Xcode
 ok cask transmit
 ok cask sequel-pro
@@ -27,3 +28,5 @@ fi
 ok gem bundler
 ok gem jekyll
 ok gem rails
+ok gem mysql2
+ok gem pg
