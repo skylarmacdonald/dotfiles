@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"CodeFormatter",
 		"EditorConfig",
 		"GitSavvy",
 		"Package Control",
