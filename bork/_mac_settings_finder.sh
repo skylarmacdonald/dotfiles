@@ -17,8 +17,9 @@ ok defaults com.apple.finder FXDefaultSearchScope string "SCcf"
 # Disable the warning when changing a file extension
 ok defaults com.apple.finder FXEnableExtensionChangeWarning bool false
 
-# Avoid creating .DS_Store files on network volumes
+# Avoid creating .DS_Store files on network or USB volumes
 ok defaults com.apple.desktopservices DSDontWriteNetworkStores bool true
+ok defaults com.apple.desktopservices DSDontWriteUSBStores bool true
 
 # Disable disk image verification
 ok defaults com.apple.frameworks.diskimages skip-verify bool true

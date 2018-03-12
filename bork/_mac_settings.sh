@@ -19,9 +19,17 @@ ok defaults com.apple.TimeMachine DoNotOfferNewDisksForBackup bool true
 ok defaults com.apple.screensaver askForPassword -int 1
 ok defaults com.apple.screensaver askForPasswordDelay -int 0
 
+# Disable the all too sensitive backswipe on trackpads
+ok defaults com.google.Chrome AppleEnableSwipeNavigateWithScrolls bool false
+ok defaults com.google.Chrome.canary AppleEnableSwipeNavigateWithScrolls bool false
+# Disable the all too sensitive backswipe on Magic Mouse
+ok defaults com.google.Chrome AppleEnableMouseSwipeNavigateWithScrolls bool false
+ok defaults com.google.Chrome.canary AppleEnableMouseSwipeNavigateWithScrolls bool false
+
 # Disable Notification Center and remove the menu bar icon
 launchctl unload -w /System/Library/LaunchAgents/com.apple.notificationcenterui.plist 2> /dev/null
 
 include _mac_settings_dock.sh
 include _mac_settings_finder.sh
 include _mac_settings_safari.sh
+include _mac_settings_input.sh
