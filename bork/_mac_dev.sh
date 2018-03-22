@@ -16,6 +16,7 @@ ok mas 497799835 Xcode
 ok cask transmit
 ok cask sequel-pro
 ok cask psequel
+ok cask ngrok
 
 ok brew ruby-install
 ok brew chruby
