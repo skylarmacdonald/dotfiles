@@ -21,6 +21,27 @@
 					]
 				}
 			]
+		},
+		{
+			"description": "Press F3 key to open Sublime Text.",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "f3",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open '/Applications/Sublime Text.app'"
+						}
+					]
+				}
+			]
 		}
 	]
 }
