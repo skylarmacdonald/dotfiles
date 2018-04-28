@@ -5,6 +5,7 @@
 [user]
 	name = Skylar MacDonald
 	email = skylar@skylarmacdonald.com
+	signingkey = D255BC7EA678EAEDB63CA76285AA5804B6277EA0
 [hub]
 	protocol=https
 [core]
