@@ -15,5 +15,6 @@ ok mas 413965349 Soulver
 ok mas 406056744 Evernote
 ok cask jumpcut
 ok cask keybase
+ok cask slack
 
 eval $(op signin klebe-macdonald.1password.com 1p@skylarmacdonald.com $OP_SECRET)
