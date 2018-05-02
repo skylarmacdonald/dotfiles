@@ -6,7 +6,7 @@ ok brew jq
 ok cask alfred
 ok mas 507257563 Sip
 ok cask the-unarchiver
-ok cask google-chrome
+ok cask firefox
 ok cask caffeine
 ok cask karabiner-elements
 ok mas 585829637 Todoist
