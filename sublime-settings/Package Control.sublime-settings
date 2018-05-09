@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"ANSIescape",
 		"CodeFormatter",
 		"EditorConfig",
 		"GitSavvy",
