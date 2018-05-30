@@ -13,6 +13,7 @@ ok mas 585829637 Todoist
 ok mas 457622435 Yoink
 ok mas 413965349 Soulver
 ok mas 406056744 Evernote
+ok mas 1176895641 Spark
 ok cask jumpcut
 ok cask keybase
 ok cask slack
