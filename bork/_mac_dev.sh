@@ -8,6 +8,7 @@ if satisfying; then
 	op get item mioskhtiezckbap3iexulkdt4e | jq -r '.details.sections[5].fields[] | select(.n=="D59700F799724CF6AC3D3DF30B1C2420").v' > "$HOME/code/dotfiles/sublime-settings/Theme - Monokai Pro.sublime-settings"
 fi
 
+ok brew telnet
 ok cask dash
 ok brew mysql
 ok check "brew services start mysql"
