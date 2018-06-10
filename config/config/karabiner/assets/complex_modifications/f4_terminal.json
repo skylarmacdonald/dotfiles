@@ -42,6 +42,59 @@
 					]
 				}
 			]
+		},
+		{
+			"description": "Press F7 key to open Firefox.",
+			"manipulators": [
+				{
+					"type": "basic",
+					"from": {
+						"key_code": "f7",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"shell_command": "open '/Applications/Firefox.app'"
+						}
+					]
+				}
+			]
+		},
+		{
+			"description": "Press F8 key to reload page.",
+			"manipulators": [
+				{
+					"type": "basic",
+					"conditions": [
+						{
+							"type": "frontmost_application_if",
+							"bundle_identifiers": [
+								"^org.mozilla.firefox"
+							]
+						}
+					],
+					"from": {
+						"key_code": "f8",
+						"modifiers": {
+							"optional": [
+								"any"
+							]
+						}
+					},
+					"to": [
+						{
+							"key_code": "r",
+							"modifiers": [
+								"left_command"
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
