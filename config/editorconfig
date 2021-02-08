@@ -11,10 +11,14 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
-[*.{rb,yml,erb,scss,cap}]
+[*.{rb,yml,erb,scss,cap,builder,prawn,gemspec}]
 indent_style = space
 indent_size = 2
-[Gemfile]
+[{Gemfile,Dangerfile,Capfile,Rakefile}]
+indent_style = space
+indent_size = 2
+
+[*.{tf,hcl}]
 indent_style = space
 indent_size = 2
 
