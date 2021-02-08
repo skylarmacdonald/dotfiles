@@ -1,0 +1,65 @@
+{
+	"pagelist":
+	{
+		"Square One":
+		[
+			"SquareOne:Administrators",
+			"Employee code of conduct",
+			"SquareOne:Relevance",
+			"SquareOne:Usefulness",
+			"SquareOne:Single source of truth",
+			"Disciplinary action policy",
+			"Template:Stub",
+			"SquareOne:About",
+			"SquareOne:Speedy deletion",
+			"SquareOne:Articles for deletion",
+			"SquareOne:Banning policy",
+			"SquareOne:Deletion policy",
+			"Category:Business Continuity",
+			"ETHANE reports",
+			"Paging codes",
+			"Emergency command structure",
+			"Active attacker/shooter",
+			"Bomb threats",
+			"Bomb threats/Media and publicity",
+			"Bomb threats/Searching for suspicious items",
+			"Bomb threats/Call handling",
+			"Bomb threats/Evacuation",
+			"CBRN incidents",
+			"Service delivery failures",
+			"Service delivery failures/DigitalOcean",
+			"Service delivery failures/NHS",
+			"Service delivery failures/OpenSRS",
+			"MediaWiki:Common.css",
+			"Intramuscular injection"
+		]
+	},
+	"site":
+	{
+		"Square One":
+		{
+			"authorization_type": "login",
+			"cookies_browser": "firefox",
+			"host": "sq1.dangerscience.com",
+			"https": true,
+			"is_ssl_cert_verify": true,
+			"is_wikia": false,
+			"pagepath": "/wiki/",
+			"password": "gu07eqpuivnrjquub02hdlrji6q417jg",
+			"path": "/",
+			"preview_custom_head":
+			[
+			],
+			"preview_sandbox": "",
+			"proxy_host": "",
+			"retry_timeout": 30,
+			"search_namespaces": "",
+			"show_red_links": false,
+			"summary_fail_buf": "",
+			"use_http_auth": false,
+			"username": "Skylar@SublimeText/Mediawiker"
+		}
+	},
+	"site_active": "Square One",
+	"summary_postfix": ""
+}

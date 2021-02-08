@@ -8,10 +8,12 @@
 		"CodeFormatter",
 		"EditorConfig",
 		"GitSavvy",
+		"Mediawiker",
 		"Package Control",
 		"Pretty JSON",
 		"Sass",
 		"SideBarTools",
+		"Terraform",
 		"Theme - Monokai Pro"
 	]
 }
