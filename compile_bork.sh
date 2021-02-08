@@ -5,5 +5,5 @@ if [ -d "./bork" ]; then
 		echo "include $borkfile" >> ./borkfile.sh
 	done
 fi
-bork compile borkfile.sh >> bork.sh
+bork compile borkfile.sh > bork.sh
 rm borkfile.sh
