@@ -5,7 +5,7 @@
 [user]
 	name = Skylar MacDonald
 	email = skylar@skylarmacdonald.com
-	signingkey = D255BC7EA678EAEDB63CA76285AA5804B6277EA0
+	signingkey = E6EC2ECD6183FC63
 [hub]
 	protocol=https
 [core]
@@ -70,9 +70,9 @@
 [url "git@github.com:"]
 	insteadOf = "gh:"
 	insteadOf = "git://github.com"
-	pushInsteadOf = "github:"
-	pushInsteadOf = "git://github.com/"
-    pushInsteadOf = "https://github.com/"
+	insteadOf = "github:"
+	insteadOf = "git://github.com/"
+	insteadOf = "https://github.com/"
 [url "git@gist.github.com:"]
 	insteadOf = "gst:"
 	pushInsteadOf = "gist:"
@@ -86,3 +86,5 @@
 # push easily. http://stackoverflow.com/a/23918418/89484
 [push]
 	default = current
+[commit]
+	gpgsign = true
