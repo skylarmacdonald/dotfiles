@@ -18,7 +18,6 @@ ok cask transmit
 ok cask sequel-pro
 ok cask psequel
 ok cask ngrok
-ok mas 1247655340 Shade
 
 ok brew ruby-install
 ok brew chruby
