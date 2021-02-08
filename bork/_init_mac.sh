@@ -15,10 +15,10 @@ if [ -n "$COMPUTER_NAME" ]; then
 fi
 
 ok directory "$HOME/.ssh"
-ok check "[ -e $HOME/.ssh/id_rsa.pub ]"
+ok check "[ -e $HOME/.ssh/id_ed25519.pub ]"
 if check_failed && satisfying; then
 	echo "Generating SSH Key"
-	ssh-keygen -t rsa
+	ssh-keygen -o -a 100 -t ed25519 -f ~/.ssh/id_ed25519 -C "skylar@skylarmacdonald.com"
 	echo "Please upload your new SSH key to GitHub before continuing"
 	read -p "Press Return to continue" etc
 fi
