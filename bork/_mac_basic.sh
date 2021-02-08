@@ -17,4 +17,4 @@ ok cask jumpcut
 ok cask keybase
 ok cask slack
 
-eval $(op signin klebe-macdonald.1password.com 1p@skylarmacdonald.com $OP_SECRET)
+eval $(op signin my.1password.com 1p@skylarmacdonald.com $OP_SECRET)

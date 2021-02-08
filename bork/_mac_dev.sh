@@ -1,4 +1,4 @@
-eval $(op signin klebe-macdonald)
+eval $(op signin my)
 
 ok cask sublime-text
 if satisfying; then
