@@ -175,6 +175,27 @@
                         ]
                     },
                     {
+                        "description": "Press F4 key to open a terminal.",
+                        "manipulators": [
+                            {
+                                "from": {
+                                    "key_code": "f4",
+                                    "modifiers": {
+                                        "optional": [
+                                            "any"
+                                        ]
+                                    }
+                                },
+                                "to": [
+                                    {
+                                        "shell_command": "open '/Applications/Utilities/Terminal.app'"
+                                    }
+                                ],
+                                "type": "basic"
+                            }
+                        ]
+                    },
+                    {
                         "description": "Press F3 key to open Sublime Text.",
                         "manipulators": [
                             {
@@ -242,27 +263,6 @@
                                         "modifiers": [
                                             "left_command"
                                         ]
-                                    }
-                                ],
-                                "type": "basic"
-                            }
-                        ]
-                    },
-                    {
-                        "description": "Press F4 key to open a terminal.",
-                        "manipulators": [
-                            {
-                                "from": {
-                                    "key_code": "f4",
-                                    "modifiers": {
-                                        "optional": [
-                                            "any"
-                                        ]
-                                    }
-                                },
-                                "to": [
-                                    {
-                                        "shell_command": "open '/System/Applications/Utilities/Terminal.app'"
                                     }
                                 ],
                                 "type": "basic"
