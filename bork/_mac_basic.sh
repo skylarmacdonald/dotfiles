@@ -26,7 +26,6 @@ ok cask spotify
 ok cask signal
 ok cask telegram
 ok cask superduper
-ok cask steam
 ok cask zoom
 
 eval $(op signin my.1password.com 1p@skylarmacdonald.com $OP_SECRET)
