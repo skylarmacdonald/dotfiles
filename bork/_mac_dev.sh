@@ -20,6 +20,10 @@ ok cask transmit
 ok cask sequel-pro
 ok cask psequel
 ok cask ngrok
+ok brew python@3.9
+ok brew node
+ok brew yarn
+ok brew go
 
 ok brew ruby-install
 ok brew chruby
@@ -35,3 +39,9 @@ ok gem jekyll
 ok gem rails
 ok gem mysql2
 ok gem pg
+
+ok brew terraform
+ok brew heroku
+ok brew goreleaser
+ok brew gh
+ok brew bats
