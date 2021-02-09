@@ -8,7 +8,7 @@ ok defaults com.apple.Safari SuppressSearchSuggestions bool true
 ok defaults com.apple.Safari ShowFullURLInSmartSearchField bool true
 
 # Set Safari’s home page to `about:blank` for faster loading
-ok defaults com.apple.Safari HomePage -string "about:blank"
+ok defaults com.apple.Safari HomePage string "about:blank"
 
 # Prevent Safari from opening ‘safe’ files automatically after downloading
 ok defaults com.apple.Safari AutoOpenSafeDownloads bool false
