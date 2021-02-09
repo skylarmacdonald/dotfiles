@@ -16,6 +16,7 @@ ok mas 497799835 Xcode
 ok mas 1388020431 DevCleaner
 ok mas 1450874784 Transporter
 ok mas 1037126344 Apple Configurator 2
+ok mas 1295203466 Microsoft Remote Desktop
 ok cask transmit
 ok cask sequel-pro
 ok cask psequel
@@ -28,6 +29,7 @@ ok brew jq
 ok brew certbot
 ok brew doctl
 ok cask balenaetcher
+ok cask cyberduck
 
 ok brew ruby-install
 ok brew chruby
