@@ -25,9 +25,9 @@ fi
 
 ok brew
 ok brew git
-ok brew bork
 
 ok directory "$HOME/code"
+ok github $HOME/code/bork skylarmacdonald/bork --ssh
 ok github $HOME/code/dotfiles skylarmacdonald/dotfiles --ssh
 cd ~
 if [ -d "$HOME/code/dotfiles/config" ]; then
