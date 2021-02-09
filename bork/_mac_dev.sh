@@ -3,7 +3,7 @@ eval $(op signin my)
 ok cask sublime-text
 if satisfying; then
 	mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages"
-	ln -s $HOME/code/dotfiles/sublime-settings/ "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
+	ok symlink "$HOME/Library/Application Support/Sublime Text 3/Packages/User" $HOME/code/dotfiles/sublime-settings/
 	op get item lqzl36cxtfdtjfb5krwhxgfa64 --fields reg_code > "$HOME/code/dotfiles/sublime-settings/Theme - Monokai Pro.sublime-settings"
 fi
 
