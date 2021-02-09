@@ -24,6 +24,10 @@ ok brew python@3.9
 ok brew node
 ok brew yarn
 ok brew go
+ok brew jq
+ok brew certbot
+ok brew doctl
+ok cask balenaetcher
 
 ok brew ruby-install
 ok brew chruby
@@ -41,7 +45,12 @@ ok gem mysql2
 ok gem pg
 
 ok brew terraform
+ok brew-tap heroku/brew
 ok brew heroku
+ok brew-tap goreleaser/tap
 ok brew goreleaser
 ok brew gh
 ok brew bats
+ok brew-tap stripe/stripe-cli
+ok brew stripe
+ok brew packer
