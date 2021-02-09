@@ -30,6 +30,7 @@ ok brew certbot
 ok brew doctl
 ok cask balenaetcher
 ok cask cyberduck
+ok cask wireshark
 
 ok brew ruby-install
 ok brew chruby
