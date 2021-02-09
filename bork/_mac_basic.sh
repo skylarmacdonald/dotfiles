@@ -17,6 +17,16 @@ ok mas 1453365242 Brother P-touch Editor
 ok cask jumpcut
 ok cask keybase
 ok cask slack
+ok cask discord
 ok cask hey
+ok cask appcleaner
+ok cask google-drive-file-stream
+ok cask clockify
+ok cask spotify
+ok cask signal
+ok cask telegram
+ok cask superduper
+ok cask steam
+ok cask zoom
 
 eval $(op signin my.1password.com 1p@skylarmacdonald.com $OP_SECRET)
