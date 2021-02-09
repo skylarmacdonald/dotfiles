@@ -15,3 +15,9 @@ ok defaults com.apple.universalaccess HIDScrollZoomModifierMask int 262144
 
 # Stop iTunes from responding to the keyboard media keys
 launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null
+
+# Set language and text formats
+ok defaults NSGlobalDomain AppleLanguages array "en-GB" "en"
+ok defaults NSGlobalDomain AppleLocale string "en_GB@currency=GBP"
+ok defaults NSGlobalDomain AppleMeasurementUnits string "Centimeters"
+ok defaults NSGlobalDomain AppleMetricUnits bool true
