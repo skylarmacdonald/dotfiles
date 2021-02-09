@@ -57,10 +57,17 @@ ok defaults com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2
 # Disable Java
 ok defaults com.apple.Safari WebKitJavaEnabled bool false
 ok defaults com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabled bool false
+ok defaults com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaEnabledForLocalFiles bool false
 
 # Block pop-up windows
 ok defaults com.apple.Safari WebKitJavaScriptCanOpenWindowsAutomatically bool false
 ok defaults com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2JavaScriptCanOpenWindowsAutomatically bool false
+
+# Disable auto-playing video
+ok defaults com.apple.Safari WebKitMediaPlaybackAllowsInline bool false
+ok defaults com.apple.SafariTechnologyPreview WebKitMediaPlaybackAllowsInline bool false
+ok defaults com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowsInlineMediaPlayback bool false
+ok defaults com.apple.SafariTechnologyPreview com.apple.Safari.ContentPageGroupIdentifier.WebKit2AllowsInlineMediaPlayback bool false
 
 # Enable “Do Not Track”
 ok defaults com.apple.Safari SendDoNotTrackHTTPHeader bool true
