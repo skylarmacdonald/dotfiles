@@ -21,3 +21,8 @@ ok defaults NSGlobalDomain AppleLanguages array "en-GB" "en"
 ok defaults NSGlobalDomain AppleLocale string "en_GB@currency=GBP"
 ok defaults NSGlobalDomain AppleMeasurementUnits string "Centimeters"
 ok defaults NSGlobalDomain AppleMetricUnits bool true
+
+# Set the timezone; see `sudo systemsetup -listtimezones` for other values
+if satisfying; then
+	sudo systemsetup -settimezone "Europe/London" > /dev/null
+fi
