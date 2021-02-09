@@ -27,5 +27,6 @@ ok cask signal
 ok cask telegram
 ok cask superduper
 ok cask zoom
+ok cask dropbox
 
 eval $(op signin my.1password.com 1p@skylarmacdonald.com $OP_SECRET)
