@@ -1,6 +1,6 @@
 eval $(op signin my)
 
-ok brew sublime-text
+ok cask sublime-text
 if satisfying; then
 	mkdir -p "$HOME/Library/Application Support/Sublime Text 3/Packages"
 	ln -s $HOME/code/dotfiles/sublime-settings/ "$HOME/Library/Application Support/Sublime Text 3/Packages/User"
@@ -8,18 +8,18 @@ if satisfying; then
 fi
 
 ok brew telnet
-ok brew dash
+ok cask dash
 ok brew mysql
 ok check "brew services start mysql"
-ok brew postgres
+ok cask postgres
 ok mas 497799835 Xcode
 ok mas 1388020431 DevCleaner
 ok mas 1450874784 Transporter
 ok mas 1037126344 Apple Configurator 2
-ok brew transmit
-ok brew sequel-pro
-ok brew psequel
-ok brew ngrok
+ok cask transmit
+ok cask sequel-pro
+ok cask psequel
+ok cask ngrok
 
 ok brew ruby-install
 ok brew chruby
