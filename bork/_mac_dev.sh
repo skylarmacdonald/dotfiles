@@ -15,6 +15,7 @@ ok brew postgres
 ok mas 497799835 Xcode
 ok mas 1388020431 DevCleaner
 ok mas 1450874784 Transporter
+ok mas 1037126344 Apple Configurator 2
 ok brew transmit
 ok brew sequel-pro
 ok brew psequel
