@@ -27,12 +27,14 @@ ok brew
 ok brew git
 
 ok directory "$HOME/code"
-ok github $HOME/code/bork skylarmacdonald/bork --ssh
+ok github /usr/local/src/bork skylarmacdonald/bork --ssh
+ok symlink $HOME/code/bork /usr/local/src/bork
+ok symlink /usr/local/bin/bork /usr/local/src/bork/bin/bork
 ok github $HOME/code/dotfiles skylarmacdonald/dotfiles --ssh
 cd ~
 if [ -d "$HOME/code/dotfiles/config" ]; then
 	for config in $HOME/code/dotfiles/config/*; do
-		ok symlink ".$(basename $config)" $config
+		ok symlink "$HOME/.$(basename $config)" $config
 	done
 fi
 
