@@ -18,7 +18,7 @@ jobs:
         repository: 'skylarmacdonald/bork'
         path: 'bork_source'
     - name: Link Bork
-      run: echo "$HOME/bork_source/bin" >> $GITHUB_PATH
+      run: echo "$GITHUB_WORKSPACE/bork_source/bin" >> $GITHUB_PATH
     - name: Compile Bork
       run: ./compile_bork.sh
     - name: Upload Bork script
