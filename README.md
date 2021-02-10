@@ -1,4 +1,5 @@
-# dotfiles [![Build Status](https://travis-ci.com/skylarmacdonald/dotfiles.svg?token=tV9YGfDvQcFzTzWgHCZJ&branch=master)](https://travis-ci.com/skylarmacdonald/dotfiles)
+# dotfiles ![Compile](https://github.com/skylarmacdonald/dotfiles/workflows/Compile/badge.svg)
+
 Configuration files that make me hate computers less
 
 At the moment, these are created to set up a macOS machine the way I like it. In future, I will expand them to configure all my servers and machines the way I like them.
