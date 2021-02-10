@@ -1,0 +1,27 @@
+name: Compile
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+    types: [ closed ]
+
+jobs:
+  compile:
+    runs-on: macos-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Install Bork
+      uses: actions/checkout@v2
+      with:
+        repository: 'skylarmacdonald/bork'
+        path: '/usr/local/src/bork'
+    - name: Link Bork
+      run: ln -sf /usr/local/src/bork/bin/bork /usr/local/bin/bork
+    - name: Compile Bork
+      run: ./compile_bork.sh
+    - name: Upload Bork script
+      uses: actions/upload-artifact@v2
+      with:
+        path: bork.sh
