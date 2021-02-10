@@ -88,3 +88,5 @@
 	default = current
 [commit]
 	gpgsign = true
+[pull]
+	rebase = false
