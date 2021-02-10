@@ -58,3 +58,5 @@ ok brew bats
 ok brew-tap stripe/stripe-cli
 ok brew stripe
 ok brew packer
+
+ok directory "$HOME/code/dsg"
