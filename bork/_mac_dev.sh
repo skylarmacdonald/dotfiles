@@ -28,6 +28,7 @@ ok brew go
 ok brew jq
 ok brew certbot
 ok brew doctl
+ok brew awscli
 ok cask balenaetcher
 ok cask cyberduck
 ok cask wireshark
