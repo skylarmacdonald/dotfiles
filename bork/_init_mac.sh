@@ -42,5 +42,5 @@ fi
 ok brew zsh
 ok brew zsh-completions
 ok brew liquidprompt
-ok shells /usr/local/bin/zsh
-did_install && chsh -s /usr/local/bin/zsh
+ok shells /opt/homebrew/bin/zsh
+did_install && chsh -s /opt/homebrew/bin/zsh
