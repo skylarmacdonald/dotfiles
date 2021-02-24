@@ -73,6 +73,10 @@ if [ -f /usr/local/share/liquidprompt ]; then
 	. /usr/local/share/liquidprompt
 fi
 
+if [ -f /opt/homebrew/share/liquidprompt ]; then
+  . /opt/homebrew/share/liquidprompt
+fi
+
 alias sublime=subl
 #alias rt="bin/spring stop && rails t"
 alias rc="rails c"
@@ -84,8 +88,8 @@ function rt() {
 	bundle exec rails test
 }
 
-source /usr/local/opt/chruby/share/chruby/chruby.sh
-source /usr/local/opt/chruby/share/chruby/auto.sh
+source /opt/homebrew/share/chruby/chruby.sh
+source /opt/homebrew/share/chruby/auto.sh
 source ~/.profile
 
 export NVM_DIR="$HOME/.nvm"
