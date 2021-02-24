@@ -28,10 +28,10 @@ ok brew git
 
 ok directory "$HOME/code"
 ok directory /usr/local/src
-ok github /usr/local/src/bork skylarmacdonald/bork --ssh
+ok github /usr/local/src/bork skylarmacdonald/bork --branch=main --ssh
 ok symlink $HOME/code/bork /usr/local/src/bork
 ok symlink /usr/local/bin/bork /usr/local/src/bork/bin/bork
-ok github $HOME/code/dotfiles skylarmacdonald/dotfiles --ssh
+ok github $HOME/code/dotfiles skylarmacdonald/dotfiles --branch=main --ssh
 cd ~
 if [ -d "$HOME/code/dotfiles/config" ]; then
 	for config in $HOME/code/dotfiles/config/*; do
