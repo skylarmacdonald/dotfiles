@@ -6,3 +6,4 @@ default.profraw
 /config/gnupg/pubring.kbx
 /config/gnupg/random_seed
 /config/gnupg/trustdb.gpg
+/config/config/op/
