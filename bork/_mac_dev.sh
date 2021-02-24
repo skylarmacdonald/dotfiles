@@ -46,6 +46,7 @@ ok gem bundler
 ok gem jekyll
 ok gem rails
 ok gem mysql2
+ok brew libpq
 ok gem pg
 
 ok brew terraform
