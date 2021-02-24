@@ -2,3 +2,7 @@ default.profraw
 /config/config/hub
 /config/config/stripe/
 /sublime-settings/Theme - Monokai Pro.sublime-settings
+/config/gnupg/private-keys-v1.d/
+/config/gnupg/pubring.kbx
+/config/gnupg/random_seed
+/config/gnupg/trustdb.gpg
