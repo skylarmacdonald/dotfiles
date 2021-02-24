@@ -38,6 +38,8 @@ if [ -d "$HOME/code/dotfiles/config" ]; then
 		ok symlink "$HOME/.$(basename $config)" $config
 	done
 fi
+ok brew gnupg
+ok brew pinentry-mac
 
 ok brew zsh
 ok brew zsh-completions
