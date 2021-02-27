@@ -32,6 +32,7 @@ ok brew awscli
 ok cask balenaetcher
 ok cask cyberduck
 ok cask wireshark
+ok mas 1518425043 Boop
 
 ok brew ruby-install
 ok brew chruby
