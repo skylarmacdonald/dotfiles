@@ -23,6 +23,10 @@ if check_failed && satisfying; then
 	read -p "Press Return to continue" etc
 fi
 
+if [[ $(uname -p) == 'arm' ]] && [[ $(uname -s) == 'Darwin' ]]; then
+	ok check "/usr/sbin/softwareupdate --install-rosetta --agree-to-license"
+fi
+
 ok brew
 ok brew git
 
