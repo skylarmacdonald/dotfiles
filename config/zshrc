@@ -82,13 +82,15 @@ if [ -f /opt/homebrew/share/liquidprompt ]; then
 fi
 
 alias sublime=subl
-#alias rt="bin/spring stop && rails t"
+#alias rt="bin/spring stop && DISABLE_SPRING=true rails t"
 alias rc="rails c"
 
 function rt() {
 	if [ -f "bin/spring" ]; then
 		bin/spring stop
 	fi
+	export DISABLE_SPRING=true
+	export PARALLEL_WORKERS=1
 	bundle exec rails test
 }
 
