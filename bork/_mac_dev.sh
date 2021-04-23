@@ -59,6 +59,10 @@ ok brew gh
 ok brew bats
 ok brew-tap stripe/stripe-cli
 ok brew stripe
-ok brew packer
+ok brew-tap hashicorp/tap
+ok brew hashicorp/tap/packer
+ok brew vault
+ok brew terraform
+ok brew hashicorp/tap/nomad
 
 ok directory "$HOME/code/dsg"
