@@ -1,4 +1,4 @@
-export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/opt/libxml2/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/go/bin:/opt/homebrew/bin:/opt/homebrew/sbin
+export PATH=/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/MacGPG2/bin:/usr/local/opt/libxml2/bin:/Applications/Postgres.app/Contents/Versions/latest/bin:/usr/local/go/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/opt/python@3.9/bin:/Users/skylar/Library/Python/3.9/bin:~/.npm-global/bin
 export ANDROID_HOME=${HOME}/Library/Android/sdk
 export PATH=${PATH}:${ANDROID_HOME}/tools
 export PATH=${PATH}:${ANDROID_HOME}/platform-tools

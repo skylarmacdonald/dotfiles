@@ -101,7 +101,6 @@ source ~/.profile
 silence_ruby_warnings () {
 	export RUBYOPT='-W:no-deprecated -W:no-experimental'
 }
-export PATH="/usr/local/opt/python@3.9/bin:$PATH"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
