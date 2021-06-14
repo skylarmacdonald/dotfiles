@@ -72,7 +72,6 @@
 	insteadOf = "git://github.com"
 	insteadOf = "github:"
 	insteadOf = "git://github.com/"
-	insteadOf = "https://github.com/"
 [url "git@gist.github.com:"]
 	insteadOf = "gst:"
 	pushInsteadOf = "gist:"
