@@ -1,0 +1,7 @@
+{
+	"checks": {
+		"typography.exclamation": false,
+		"misc.phrasal_adjectives": false,
+		"typography.symbols": false
+	}
+}
