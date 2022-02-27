@@ -8,3 +8,5 @@ default.profraw
 /config/gnupg/trustdb.gpg
 /config/config/op/
 /config/gnupg/tofu.db
+/config/config/wireshark/recent
+/config/config/wireshark/recent_common
