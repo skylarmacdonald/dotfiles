@@ -4,7 +4,7 @@
 	required = true
 [user]
 	name = Skylar MacDonald
-	email = skylar@skylarmacdonald.com
+	email = biology-loose0g@icloud.com
 	signingkey = E6EC2ECD6183FC63
 [hub]
 	protocol=https
@@ -91,3 +91,5 @@
 	rebase = false
 [gpg]
 	program = /opt/homebrew/bin/gpg
+[init]
+	defaultBranch = main
