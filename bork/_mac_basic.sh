@@ -23,5 +23,6 @@ ok cask telegram
 ok cask superduper
 ok cask zoom
 ok cask dropbox
+ok mas 1365531024 1Blocker
 
 eval $(op signin my.1password.com 1p@skylarmacdonald.com $OP_SECRET)
