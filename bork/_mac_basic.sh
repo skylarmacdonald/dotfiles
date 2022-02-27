@@ -6,7 +6,6 @@ ok brew jq
 ok cask alfred
 ok mas 507257563 Sip
 ok cask the-unarchiver
-ok cask firefox
 ok cask caffeine
 ok mas 585829637 Todoist
 ok mas 457622435 Yoink
@@ -15,12 +14,10 @@ ok mas 1453365242 Brother P-touch Editor
 ok cask jumpcut
 ok cask keybase
 ok cask slack
-ok cask discord
 ok cask hey
 ok cask appcleaner
 ok cask google-drive
 ok cask clockify
-ok cask spotify
 ok cask signal
 ok cask telegram
 ok cask superduper
