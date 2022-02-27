@@ -32,6 +32,8 @@ ok cask cyberduck
 ok cask wireshark
 ok mas 1518425043 Boop
 ok mas 1516894961 Codye
+ok mas 1230249825 VMware Remote Console
+ok cask utm
 
 ok brew ruby-install
 ok brew chruby
