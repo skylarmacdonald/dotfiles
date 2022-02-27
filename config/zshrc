@@ -71,6 +71,12 @@ function urlenc; {
 	echo "${${(j: :)@}//(#b)(?)/%$[[##16]##${match[1]}]}"
 }
 
+gpby() {
+	git pull
+	bundle install
+	yarn install
+}
+
 setopt HIST_IGNORE_SPACE
 
 if [ -f /usr/local/share/liquidprompt ]; then
