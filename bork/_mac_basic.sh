@@ -19,7 +19,7 @@ ok cask slack
 ok cask discord
 ok cask hey
 ok cask appcleaner
-ok cask google-drive-file-stream
+ok cask google-drive
 ok cask clockify
 ok cask spotify
 ok cask signal
