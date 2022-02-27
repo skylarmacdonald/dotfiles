@@ -8,7 +8,6 @@ ok mas 507257563 Sip
 ok cask the-unarchiver
 ok cask firefox
 ok cask caffeine
-ok cask karabiner-elements
 ok mas 585829637 Todoist
 ok mas 457622435 Yoink
 ok mas 413965349 Soulver
