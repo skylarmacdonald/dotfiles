@@ -7,3 +7,4 @@ default.profraw
 /config/gnupg/random_seed
 /config/gnupg/trustdb.gpg
 /config/config/op/
+/config/gnupg/tofu.db
