@@ -91,7 +91,7 @@ function rt() {
 	fi
 	export DISABLE_SPRING=true
 	export PARALLEL_WORKERS=1
-	bundle exec rails test
+	bundle exec rails test -p
 }
 
 source /opt/homebrew/share/chruby/chruby.sh
